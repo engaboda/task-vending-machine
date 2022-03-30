@@ -20,8 +20,10 @@ $ . env/bin/activate
 
 (env)$ python manage.py migrate
 
-And navigate to http://127.0.0.1:8000/gocardless/.
+# to run python server
 
+(env)$ python manage.py runserver
+And navigate to http://127.0.0.1:8000
 
 # To run the tests, cd into the directory where manage.py is:
 
